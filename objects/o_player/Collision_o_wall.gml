@@ -1,0 +1,1 @@
+if o_game_controller.red instance_destroy(o_player)

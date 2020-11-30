@@ -1,9 +1,9 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check(ord("W"));
-key_red = keyboard_check(ord("J"));
-key_white = keyboard_check(ord("K"));
-key_yellow = keyboard_check(ord("L"));
+key_red = keyboard_check_pressed(ord("J"));
+key_white = keyboard_check_pressed(ord("K"));
+key_yellow = keyboard_check_pressed(ord("L"));
 
 //movement
 var move = key_right - key_left;
@@ -12,13 +12,13 @@ h_speed = move * speed_walk;
 
 v_speed = v_speed + grv;
 
-if (place_meeting(x, y+1,o_wall)) && (key_jump)
+if (place_meeting(x, y+1,o_wall) && o_game_controller.red) && (key_jump)
 {
-	v_speed =-7
+	v_speed =-1.5
 }
 
 //h_collision
-if (place_meeting(x+h_speed,y,o_wall))
+if (place_meeting(x+h_speed,y,o_wall) && o_game_controller.red)
 {
 	while (!place_meeting(x+sign(h_speed),y,o_wall))
 	{
@@ -30,7 +30,7 @@ if (place_meeting(x+h_speed,y,o_wall))
 x = x + h_speed;
 
 //V_collision
-if (place_meeting(x,y+v_speed,o_wall))
+if (place_meeting(x,y+v_speed,o_wall) && o_game_controller.red)
 {
 	while (!place_meeting(x,y+sign(v_speed),o_wall))
 	{
@@ -47,3 +47,23 @@ if (h_speed !=0)
 	sprite_index = sprite_run;
 } else sprite_index = sprite_idle;
 
+
+if (h_speed !=0) image_xscale = sign(h_speed);
+
+
+if (hp == 0) {
+    instance_destroy(o_player)
+}
+
+if(key_red) {
+	o_game_controller.red = !o_game_controller.red
+	red()
+}
+if(key_white) {
+	o_game_controller.white = !o_game_controller.white
+	white()
+}
+if(key_yellow) {
+	o_game_controller.yellow = !o_game_controller.yellow
+	yellow()
+}

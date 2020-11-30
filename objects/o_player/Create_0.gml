@@ -1,7 +1,5 @@
 h_speed = 0;
 v_speed = 0;
-grv = 0.7;
-speed_walk = 1; 
 
 
 sprite_idle = s_player_idle;
