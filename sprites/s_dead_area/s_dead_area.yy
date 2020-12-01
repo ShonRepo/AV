@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3ccfaef5-75de-4fe9-ad3f-12d6ef6c1077","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "AV",
-    "path": "AV.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_dead_area",
