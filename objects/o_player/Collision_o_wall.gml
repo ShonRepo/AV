@@ -1,1 +1,1 @@
-if o_game_controller.red instance_destroy(o_player)
+if visible() instance_destroy(o_player)

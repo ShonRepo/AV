@@ -1,13 +1,23 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function red(){
-	layer_set_visible("color_walls",  o_game_controller.red)
-}
 
 function yellow(){
-	
+	if o_game_controller.red layer_set_visible("color_walls",  o_game_controller.yellow)
 } 
 
 function white(){
-	
+	layer_set_visible("volume",  o_game_controller.white)
 } 
+
+function red(){
+	layer_set_visible("greyscale_walls",  o_game_controller.red)
+	if !o_game_controller.red{
+		layer_set_visible("color_walls", false)
+	}else {layer_set_visible("color_walls",  o_game_controller.yellow)}
+}
+
+function visible(){
+	return o_game_controller.red && o_game_controller.yellow
+}
+
+function only_grey(){
+	return o_game_controller.red && !o_game_controller.yellow
+}
