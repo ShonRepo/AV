@@ -1,2 +1,2 @@
-audio_pause_all()
+audio_stop_all()
 room_goto(r_1)
