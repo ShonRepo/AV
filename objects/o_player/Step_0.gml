@@ -1,6 +1,6 @@
 key_left = keyboard_check(ord("A"));
 key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check(ord("W"));
+key_jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
 key_yellow = keyboard_check_pressed(ord("J"));
 key_white = keyboard_check_pressed(ord("K"));
 key_red = keyboard_check_pressed(ord("L"));

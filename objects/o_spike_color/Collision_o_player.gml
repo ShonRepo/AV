@@ -1,1 +1,1 @@
-if visible() instance_destroy(o_player)
+if visible() && !only_grey() instance_destroy(o_player) 

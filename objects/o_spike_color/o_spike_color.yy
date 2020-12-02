@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "s_spike_color",
-    "path": "sprites/s_spike_color/s_spike_color.yy",
+    "name": "s_spike_spike",
+    "path": "sprites/s_spike_spike/s_spike_spike.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -25,6 +25,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"o_player","path":"objects/o_player/o_player.yy",},"parent":{"name":"o_spike_color","path":"objects/o_spike_color/o_spike_color.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"o_spike_color","path":"objects/o_spike_color/o_spike_color.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

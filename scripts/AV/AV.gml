@@ -4,7 +4,6 @@ function yellow(){
 	{
 		layer_set_visible("color_coll", o_game_controller.yellow)	
 		layer_set_visible("b_color", o_game_controller.yellow)
-		layer_set_visible("color_spike", o_game_controller.yellow)
 		
 	}
 } 
@@ -16,20 +15,18 @@ function white(){
 function red(){
 	layer_set_visible("grey_coll",  o_game_controller.red)	
 	layer_set_visible("b_grey",  o_game_controller.red)
-	layer_set_visible("grey_spike",  o_game_controller.red)
+	layer_set_visible("spike",  o_game_controller.red)
 
 	if !o_game_controller.red
 	{
 		layer_set_visible("color_coll", false)		
 		layer_set_visible("b_color", false)
-		layer_set_visible("color_spike", false)
 
 	}
 	else 
 	{
 		layer_set_visible("color_coll",  o_game_controller.yellow)
 		layer_set_visible("b_color",  o_game_controller.yellow)
-		layer_set_visible("color_spike", o_game_controller.yellow)
 	}
 }
 
