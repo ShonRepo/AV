@@ -12,30 +12,22 @@ h_speed = move * speed_walk;
 
 v_speed = v_speed + grv;
 
-if ((place_meeting(x, y+1,o_wall) && visible()) || (place_meeting(x, y+1,o_wall_g) && only_grey())) && (key_jump)
+if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && (key_jump)
 {
 	v_speed =-1.5
 }
 
 //h_collision
-if (place_meeting(x+h_speed,y,o_wall) && visible()) || (place_meeting(x+h_speed,y,o_wall_g) && only_grey())
+if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap,  x+h_speed, y) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap,  x+h_speed, y) && only_grey())
 {
-	while (!place_meeting(x+sign(h_speed),y,o_wall))
-	{
-		x = x + sign(h_speed);	
-	}
 	h_speed = 0;
 }
 
 x = x + h_speed;
 
 //V_collision
-if (place_meeting(x,y+v_speed,o_wall) && visible()) || (place_meeting(x,y+v_speed,o_wall_g) && only_grey())
+if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+v_speed ) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+v_speed) && only_grey())
 {
-	while (!place_meeting(x,y+sign(v_speed),o_wall))
-	{
-		y = y + sign(v_speed);	
-	}
 	v_speed = 0
 }
 
@@ -70,3 +62,7 @@ if(key_yellow) {
 	o_game_controller.yellow = !o_game_controller.yellow
 	yellow()
 }
+
+if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap,  x, y) && visible()) || 
+   (tilemap_get_at_pixel(o_game_controller.grayCollisionMap,  x, y) && only_grey()) 
+instance_destroy(o_player)

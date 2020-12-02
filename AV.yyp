@@ -4,6 +4,7 @@
     {"id":{"name":"s_player_die","path":"sprites/s_player_die/s_player_die.yy",},"order":0,},
     {"id":{"name":"s_coll_color","path":"sprites/s_coll_color/s_coll_color.yy",},"order":6,},
     {"id":{"name":"o_wall","path":"objects/o_wall/o_wall.yy",},"order":1,},
+    {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":2,},
     {"id":{"name":"s_coll_grey","path":"sprites/s_coll_grey/s_coll_grey.yy",},"order":7,},
     {"id":{"name":"t_coll_color","path":"tilesets/t_coll_color/t_coll_color.yy",},"order":0,},
     {"id":{"name":"s_player_run","path":"sprites/s_player_run/s_player_run.yy",},"order":2,},
@@ -16,6 +17,7 @@
     {"id":{"name":"s_dead_area","path":"sprites/s_dead_area/s_dead_area.yy",},"order":4,},
     {"id":{"name":"o_game_controller","path":"objects/o_game_controller/o_game_controller.yy",},"order":3,},
     {"id":{"name":"s_wall_g","path":"sprites/s_wall_g/s_wall_g.yy",},"order":5,},
+    {"id":{"name":"grey","path":"shaders/grey/grey.yy",},"order":0,},
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},"order":8,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -33,9 +35,7 @@
     "name": "Default",
     "children": [],
   },
-  "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-  ],
+  "RoomOrder": [],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Tile Sets.yy","order":1,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
@@ -49,13 +49,13 @@
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
   ],
   "TextureGroups": [
-    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"targets":461609314234257646,"resourceVersion":"1.0","name":"Default","resourceType":"GMTextureGroup",},
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.1.536",
+    "IDEVersion": "2.3.0.529",
   },
-  "resourceVersion": "1.4",
+  "resourceVersion": "1.3",
   "name": "AV",
   "tags": [],
   "resourceType": "GMProject",

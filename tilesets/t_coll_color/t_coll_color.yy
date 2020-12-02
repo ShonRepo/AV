@@ -1,5 +1,4 @@
 {
-  "name": "t_coll_color",
   "spriteId": {
     "name": "s_coll_color",
     "path": "sprites/s_coll_color/s_coll_color.yy",
@@ -39,6 +38,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "t_coll_color",
   "tags": [],
   "resourceType": "GMTileSet",
 }
