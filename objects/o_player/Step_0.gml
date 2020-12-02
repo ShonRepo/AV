@@ -77,3 +77,7 @@ if(key_yellow) {
 if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap,  x, y) && visible()) || 
    (tilemap_get_at_pixel(o_game_controller.grayCollisionMap,  x, y) && only_grey()) 
 instance_destroy(o_player)
+
+
+
+surface_resize( application_surface, camera_get_view_width( view_camera[0] ), camera_get_view_height( view_camera[0] ) );
