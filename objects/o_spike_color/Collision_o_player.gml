@@ -1,0 +1,1 @@
+if visible() instance_destroy(o_player)

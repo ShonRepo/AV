@@ -1,0 +1,1 @@
+if only_grey() || visible() instance_destroy(o_player)
