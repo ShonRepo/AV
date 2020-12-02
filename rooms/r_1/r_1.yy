@@ -19,6 +19,7 @@
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_check","path":"objects/o_check/o_check.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":127.0,"y":71.0,"resourceVersion":"1.0","name":"inst_A6965FA","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"o_check","path":"objects/o_check/o_check.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":196.0,"y":335.0,"resourceVersion":"1.0","name":"inst_21D75F0D","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_check","path":"objects/o_check/o_check.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":154.0,"y":335.0,"resourceVersion":"1.0","name":"inst_703D58C8","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"check_point","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"o_volume_bad","path":"objects/o_volume_bad/o_volume_bad.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":72.0,"resourceVersion":"1.0","name":"inst_215055DC","tags":[],"resourceType":"GMRInstance",},
@@ -142,6 +143,7 @@
     {"name":"inst_8593FB5","path":"rooms/r_1/r_1.yy",},
     {"name":"inst_A6965FA","path":"rooms/r_1/r_1.yy",},
     {"name":"inst_21D75F0D","path":"rooms/r_1/r_1.yy",},
+    {"name":"inst_703D58C8","path":"rooms/r_1/r_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
