@@ -8,3 +8,6 @@ width = camera_get_view_width(view_camera[1])
 red = true
 white = true
 yellow = true
+
+last_check_x = o_player.x
+last_check_y = o_player.y
