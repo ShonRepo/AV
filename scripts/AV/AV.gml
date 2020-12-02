@@ -9,7 +9,7 @@ function yellow(){
 } 
 
 function white(){
-	layer_set_visible("volume",  o_game_controller.white)
+	if o_game_controller.white audio_resume_all(); else audio_pause_all();
 } 
 
 function red(){

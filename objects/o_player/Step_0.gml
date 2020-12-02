@@ -47,6 +47,7 @@ y = y + v_speed;
 
 if (h_speed !=0)
 {
+	audio_listener_position(x, y, 0);
 	sprite_index = sprite_run;
 } else sprite_index = sprite_idle;
 
