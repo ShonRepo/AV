@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},"order":0,},
+    {"id":{"name":"o_game_camera","path":"objects/o_game_camera/o_game_camera.yy",},"order":10,},
     {"id":{"name":"s_player_die","path":"sprites/s_player_die/s_player_die.yy",},"order":0,},
     {"id":{"name":"s_coll_color","path":"sprites/s_coll_color/s_coll_color.yy",},"order":6,},
     {"id":{"name":"o_spike_grey","path":"objects/o_spike_grey/o_spike_grey.yy",},"order":7,},
@@ -9,6 +10,7 @@
     {"id":{"name":"s_volume_bad","path":"sprites/s_volume_bad/s_volume_bad.yy",},"order":9,},
     {"id":{"name":"s_coll_grey","path":"sprites/s_coll_grey/s_coll_grey.yy",},"order":7,},
     {"id":{"name":"s_spike_color","path":"sprites/s_spike_color/s_spike_color.yy",},"order":11,},
+    {"id":{"name":"InitGame","path":"scripts/InitGame/InitGame.yy",},"order":3,},
     {"id":{"name":"t_coll_color","path":"tilesets/t_coll_color/t_coll_color.yy",},"order":0,},
     {"id":{"name":"s_player_run","path":"sprites/s_player_run/s_player_run.yy",},"order":2,},
     {"id":{"name":"s_spike_grey","path":"sprites/s_spike_grey/s_spike_grey.yy",},"order":12,},
