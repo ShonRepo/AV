@@ -25,7 +25,7 @@ v_speed = v_speed + grv;
 
 if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && (key_jump)
 {
-	v_speed =-1.5
+	v_speed =-1.7
 }
 
 //h_collision
@@ -62,15 +62,15 @@ if (hp == 0) {
 audio_listener_position(x, y, 0);
 
 //AV Controller
-if(key_red) {
+if(key_red && o_game_controller.can_red) {
 	o_game_controller.red = !o_game_controller.red
 	red() 
 }
-if(key_white) {
+if(key_white && o_game_controller.can_white) {
 	o_game_controller.white = !o_game_controller.white
 	white()
 }
-if(key_yellow) {
+if(key_yellow && o_game_controller.can_yellow) {
 	o_game_controller.yellow = !o_game_controller.yellow
 	yellow()
 }

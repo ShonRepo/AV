@@ -5,3 +5,7 @@ if(is_active)
 	is_active = 0
 	sprite_index = s_check_not_active
 }
+
+	o_game_controller.can_red = can_red
+	o_game_controller.can_white = can_white
+	o_game_controller.can_yellow = can_yellow

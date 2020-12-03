@@ -5,6 +5,10 @@ red = true
 white = true
 yellow = true
 
+can_red = false
+can_white = false
+can_yellow = false
+
 red()
 white()
 yellow()
