@@ -1,1 +1,1 @@
-if visible() && !only_grey() instance_destroy(o_player) 
+if visible() && !only_grey() o_player.hp = 0

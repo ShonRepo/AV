@@ -23,6 +23,7 @@
     {"id":{"name":"s_player_idle","path":"sprites/s_player_idle/s_player_idle.yy",},"order":1,},
     {"id":{"name":"sequence_main_menu","path":"sequences/sequence_main_menu/sequence_main_menu.yy",},"order":8,},
     {"id":{"name":"o_wall_g","path":"objects/o_wall_g/o_wall_g.yy",},"order":4,},
+    {"id":{"name":"o_dead_player","path":"objects/o_dead_player/o_dead_player.yy",},"order":13,},
     {"id":{"name":"AV","path":"scripts/AV/AV.yy",},"order":1,},
     {"id":{"name":"o_main_menu_controller","path":"objects/o_main_menu_controller/o_main_menu_controller.yy",},"order":11,},
     {"id":{"name":"o_dead_area","path":"objects/o_dead_area/o_dead_area.yy",},"order":2,},
@@ -41,6 +42,7 @@
     {"id":{"name":"grey","path":"shaders/grey/grey.yy",},"order":0,},
     {"id":{"name":"sound_main_music","path":"sounds/sound_main_music/sound_main_music.yy",},"order":1,},
     {"id":{"name":"s_enemy","path":"sprites/s_enemy/s_enemy.yy",},"order":8,},
+    {"id":{"name":"s_player_dies","path":"sprites/s_player_dies/s_player_dies.yy",},"order":9,},
     {"id":{"name":"s_wall","path":"sprites/s_wall/s_wall.yy",},"order":3,},
   ],
   "Options": [

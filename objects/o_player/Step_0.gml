@@ -47,7 +47,6 @@ y = y + v_speed;
 
 if (h_speed !=0)
 {
-	audio_listener_position(x, y, 0);
 	sprite_index = sprite_run;
 } else sprite_index = sprite_idle;
 
@@ -56,10 +55,11 @@ if (h_speed !=0) image_xscale = sign(h_speed);
 
 
 if (hp == 0) {
+    instance_create_layer(x, y, "player", o_dead_player)
     instance_destroy(o_player)
 }
 
-
+audio_listener_position(x, y, 0);
 
 //AV Controller
 if(key_red) {
