@@ -109,8 +109,8 @@
   "eventToFunction": {},
   "eventStubScript": null,
   "parent": {
-    "name": "AV",
-    "path": "AV.yyp",
+    "name": "sequnce",
+    "path": "folders/sequnce.yy",
   },
   "resourceVersion": "1.3",
   "name": "sequence_main_menu",
