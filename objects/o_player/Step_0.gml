@@ -25,6 +25,7 @@ v_speed = v_speed + grv;
 
 if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && (key_jump)
 {
+	if o_game_controller.white audio_play_sound(jump ,2 ,false)
 	v_speed =-1.7
 }
 
@@ -59,7 +60,10 @@ if (hp == 0) {
     instance_destroy(o_player)
 }
 
-audio_listener_position(x, y, 0);
+xt = x + dcos(direction);
+yt = y - dsin(direction);
+audio_listener_position(x, y, 0)
+audio_listener_orientation(xt, yt, 0, 0, 0, 1)
 
 //AV Controller
 if(key_red && o_game_controller.can_red) {
