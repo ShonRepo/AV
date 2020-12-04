@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 8,
-  "bbox_right": 63,
+  "bbox_left": 32,
+  "bbox_right": 55,
   "bbox_top": 0,
-  "bbox_bottom": 7,
+  "bbox_bottom": 23,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 64,
-  "height": 8,
+  "height": 24,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"98a7653a-8df3-45fc-b3c1-375e7478ef0a","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"98a7653a-8df3-45fc-b3c1-375e7478ef0a","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"LayerId":{"name":"77b9ffff-0293-4498-8094-cc33564c3961","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"s_t_coll_grey","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"resourceVersion":"1.0","name":"98a7653a-8df3-45fc-b3c1-375e7478ef0a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b85144c2-b5ea-4320-8f84-8d1e6af7c0be","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b85144c2-b5ea-4320-8f84-8d1e6af7c0be","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"LayerId":{"name":"420dd11c-f007-410e-b155-7d71b5c55ab8","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"s_t_coll_grey","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"resourceVersion":"1.0","name":"b85144c2-b5ea-4320-8f84-8d1e6af7c0be","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"s_t_coll_grey","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"0dec0a2a-e71b-452e-af34-09b1f8935341","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98a7653a-8df3-45fc-b3c1-375e7478ef0a","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b48f0855-f100-4a18-87f8-b52da7ff94d4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b85144c2-b5ea-4320-8f84-8d1e6af7c0be","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"77b9ffff-0293-4498-8094-cc33564c3961","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"420dd11c-f007-410e-b155-7d71b5c55ab8","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "tile",
+    "path": "folders/Sprites/tile.yy",
   },
   "resourceVersion": "1.0",
   "name": "s_t_coll_grey",
