@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bad_wave.wav",
-  "duration": 2.272642,
+  "soundFile": "jump.wav",
+  "duration": 0.154977,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bad_wave",
+  "name": "jump",
   "tags": [],
   "resourceType": "GMSound",
 }

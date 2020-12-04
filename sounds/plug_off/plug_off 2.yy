@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bad_wave.wav",
-  "duration": 2.272642,
+  "soundFile": "plug_off.mp3",
+  "duration": 0.533,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bad_wave",
+  "name": "plug_off",
   "tags": [],
   "resourceType": "GMSound",
 }

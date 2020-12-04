@@ -35,3 +35,6 @@ if can_red draw_sprite(s_red,index_red,59,84) else draw_sprite(s_wire_red_G,inde
 draw_set_font(MegaFont)
 draw_set_halign(fa_center);
 if !instance_exists(o_player) draw_text(width/2, height/2 , "Press R to restart")
+
+draw_set_font(MegaFont)
+draw_set_halign(fa_center);

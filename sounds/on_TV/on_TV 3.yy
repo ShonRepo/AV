@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bad_wave.wav",
-  "duration": 2.272642,
+  "soundFile": "on_TV.mp3",
+  "duration": 3.9575,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bad_wave",
+  "name": "on_TV",
   "tags": [],
   "resourceType": "GMSound",
 }

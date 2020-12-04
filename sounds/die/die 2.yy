@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.2,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "bad_wave.wav",
-  "duration": 2.272642,
+  "soundFile": "die.wav",
+  "duration": 0.203118,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "bad_wave",
+  "name": "die",
   "tags": [],
   "resourceType": "GMSound",
 }

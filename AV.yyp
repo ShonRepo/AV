@@ -26,6 +26,7 @@
     {"id":{"name":"good_wave","path":"sounds/good_wave/good_wave.yy",},"order":10,},
     {"id":{"name":"s_spike_spike","path":"sprites/s_spike_spike/s_spike_spike.yy",},"order":11,},
     {"id":{"name":"s_t_coll_grey","path":"sprites/s_t_coll_grey/s_t_coll_grey.yy",},"order":22,},
+    {"id":{"name":"r_3","path":"rooms/r_3/r_3.yy",},"order":5,},
     {"id":{"name":"s_logo","path":"sprites/s_logo/s_logo.yy",},"order":24,},
     {"id":{"name":"s_red","path":"sprites/s_red/s_red.yy",},"order":16,},
     {"id":{"name":"InitGame","path":"scripts/InitGame/InitGame.yy",},"order":3,},
@@ -86,9 +87,10 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"r_3","path":"rooms/r_3/r_3.yy",},},
     {"roomId":{"name":"r_1","path":"rooms/r_1/r_1.yy",},},
-    {"roomId":{"name":"r_0","path":"rooms/r_0/r_0.yy",},},
     {"roomId":{"name":"r_start","path":"rooms/r_start/r_start.yy",},},
+    {"roomId":{"name":"r_0","path":"rooms/r_0/r_0.yy",},},
     {"roomId":{"name":"r_main_menu","path":"rooms/r_main_menu/r_main_menu.yy",},},
   ],
   "Folders": [

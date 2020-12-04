@@ -1,6 +1,6 @@
 if(!visible())
 {
-	color_a = min(color_a - 0.035, 1)
+	color_a = min(color_a - 0.015, 1)
 	image_alpha = color_a
 }
 else
