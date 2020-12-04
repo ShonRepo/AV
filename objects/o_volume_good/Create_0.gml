@@ -1,3 +1,5 @@
+grey_a = 0
+
 state = orientation.up
 enum orientation
 {

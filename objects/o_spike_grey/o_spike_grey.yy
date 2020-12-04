@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_spike_spike",
-    "path": "sprites/s_spike_spike/s_spike_spike.yy",
+    "name": "s_spike_color",
+    "path": "sprites/s_spike_color/s_spike_color.yy",
   },
   "solid": false,
   "visible": true,

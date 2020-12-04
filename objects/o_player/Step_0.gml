@@ -22,6 +22,10 @@ if move !=0
 //graviti
 v_speed = v_speed + grv;
 
+if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && inertion>0.5
+{
+	inertion = 0.5
+}
 
 if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && (key_jump)
 {
@@ -81,4 +85,4 @@ if(key_yellow && o_game_controller.can_yellow) {
 
 if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap,  x, y) && visible()) || 
    (tilemap_get_at_pixel(o_game_controller.grayCollisionMap,  x, y) && only_grey()) 
-instance_destroy(o_player)
+hp = 0

@@ -28,9 +28,9 @@ else
 	index_red = min(index_red + 1, 13)
 }
 
-draw_sprite(s_yellow,index_yellow,21,84)
-draw_sprite(s_white,index_white,40,84)
-draw_sprite(s_red,index_red,59,84)
+if can_yellow draw_sprite(s_yellow,index_yellow,21,84) else draw_sprite(s_wire_yellow_G,index_yellow,21,84)
+if can_white draw_sprite(s_white,index_white,40,84) else draw_sprite(s_wire_white_G,index_white,40,84)
+if can_red draw_sprite(s_red,index_red,59,84) else draw_sprite(s_wire_red_G,index_red,59,84)
 
 draw_set_font(MegaFont)
 draw_set_halign(fa_center);

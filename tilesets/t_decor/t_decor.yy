@@ -46,7 +46,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet3",
+  "name": "t_decor",
   "tags": [],
   "resourceType": "GMTileSet",
 }

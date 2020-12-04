@@ -11,11 +11,19 @@ if (o_game_controller.white)
 		break;
 		
 		case orientation.left:
+		if o_player.v_speed > 0
+		{
+			o_player.v_speed = 0
+		}
 		o_player.inertion = 2
 		o_player.image_xscale = -1
 		break;
 		
 		case orientation.right:
+		if o_player.v_speed > 0
+		{
+			o_player.v_speed = 0
+		}
 		o_player.inertion = 2
 		o_player.image_xscale = 1
 		break;
