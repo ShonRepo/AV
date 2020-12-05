@@ -34,9 +34,9 @@ if can_red draw_sprite(s_red,index_red,59,84) else draw_sprite(s_wire_red_G,inde
 
 draw_set_font(MegaFont)
 draw_set_halign(fa_center);
-if !instance_exists(o_player) draw_text(width/2, height/2 , "Press R to restart")
+if !instance_exists(o_player) draw_sprite(press_r_to_restart, -1, width/2, height/2)
 
 draw_set_font(MegaFont)
 draw_set_halign(fa_center);
 
-if this_level_final draw_text(width/2, height/2 , "Press Space to next")
+if this_level_final && !is_final_game draw_sprite(press_space_to_continue, -1, width/2, height/2)
