@@ -41,6 +41,8 @@
   },
   "resourceVersion": "1.0",
   "name": "o_player",
-  "tags": [],
+  "tags": [
+    "gameplay",
+  ],
   "resourceType": "GMObject",
 }

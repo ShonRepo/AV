@@ -39,4 +39,4 @@ if !instance_exists(o_player) draw_text(width/2, height/2 , "Press R to restart"
 draw_set_font(MegaFont)
 draw_set_halign(fa_center);
 
-if dark_alpha == 2 draw_text(width/2, height/2 , "Press Space to next")
+if this_level_final draw_text(width/2, height/2 , "Press Space to next")

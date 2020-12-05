@@ -42,6 +42,7 @@ function red(){
 	layer_set_visible("check_point",  o_game_controller.red)
 	layer_set_visible("decor_coll",  o_game_controller.red)
 	layer_set_visible("volume",  o_game_controller.red)
+	layer_set_visible("decor",  o_game_controller.red)
 
 	if !o_game_controller.red
 	{

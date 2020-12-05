@@ -30,11 +30,13 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "spike",
+    "path": "folders/Objects/spike.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_spike_grey",
-  "tags": [],
+  "tags": [
+    "gameplay",
+  ],
   "resourceType": "GMObject",
 }

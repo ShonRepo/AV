@@ -73,6 +73,8 @@
   },
   "resourceVersion": "1.0",
   "name": "s_tree2",
-  "tags": [],
+  "tags": [
+    "decor",
+  ],
   "resourceType": "GMSprite",
 }

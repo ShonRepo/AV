@@ -2,11 +2,11 @@ if(!o_game_controller.this_level_final)
 {
 	key_left = keyboard_check(ord("A"));
 	key_right = keyboard_check(ord("D"));
-	key_jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
 	key_yellow = keyboard_check_pressed(ord("J"));
 	key_white = keyboard_check_pressed(ord("K"));
 	key_red = keyboard_check_pressed(ord("L"));
 }
+key_jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
 
 //movement
 var move = key_right - key_left;

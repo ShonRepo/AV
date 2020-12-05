@@ -73,6 +73,8 @@
   },
   "resourceVersion": "1.0",
   "name": "s_cloud2",
-  "tags": [],
+  "tags": [
+    "decor",
+  ],
   "resourceType": "GMSprite",
 }

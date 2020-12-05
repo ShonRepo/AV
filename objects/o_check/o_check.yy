@@ -32,11 +32,13 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "checkpoint",
+    "path": "folders/Objects/checkpoint.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_check",
-  "tags": [],
+  "tags": [
+    "gameplay",
+  ],
   "resourceType": "GMObject",
 }
