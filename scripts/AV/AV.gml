@@ -32,6 +32,7 @@ function white(){
 	}
 	
 	audio_resume_sound(tv_noise_in_game)
+
 } 
 
 function red(){

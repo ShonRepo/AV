@@ -11,4 +11,3 @@ color_a = 1;
 
 sprite_idle = s_player_idle;
 sprite_run = s_player_run;
-sprite_die = s_player_die;

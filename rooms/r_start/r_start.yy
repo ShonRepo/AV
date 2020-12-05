@@ -14,7 +14,7 @@
   ],
   "layers": [
     {"assets":[
-        {"sequenceId":{"name":"sequence_start","path":"sequences/sequence_start/sequence_start.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":65.0,"y":48.0,"resourceVersion":"1.0","name":"graphic_36949A88","tags":[],"resourceType":"GMRSequenceGraphic",},
+        {"sequenceId":{"name":"sequence_start","path":"sequences/sequence_start/sequence_start.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":48.0,"resourceVersion":"1.0","name":"graphic_36949A88","tags":[],"resourceType":"GMRSequenceGraphic",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"main","tags":[],"resourceType":"GMRAssetLayer",},
     {"instances":[],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[

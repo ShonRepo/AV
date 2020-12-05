@@ -1,9 +1,12 @@
-key_left = keyboard_check(ord("A"));
-key_right = keyboard_check(ord("D"));
-key_jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
-key_yellow = keyboard_check_pressed(ord("J"));
-key_white = keyboard_check_pressed(ord("K"));
-key_red = keyboard_check_pressed(ord("L"));
+if(!o_game_controller.this_level_final)
+{
+	key_left = keyboard_check(ord("A"));
+	key_right = keyboard_check(ord("D"));
+	key_jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
+	key_yellow = keyboard_check_pressed(ord("J"));
+	key_white = keyboard_check_pressed(ord("K"));
+	key_red = keyboard_check_pressed(ord("L"));
+}
 
 //movement
 var move = key_right - key_left;
@@ -37,6 +40,11 @@ if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visibl
 if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap,  x+h_speed, y) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap,  x+h_speed, y) && only_grey())
 {
 	h_speed = 0;
+}
+
+if(o_game_controller.this_level_final)
+{
+	h_speed = 0
 }
 
 x = x + h_speed;

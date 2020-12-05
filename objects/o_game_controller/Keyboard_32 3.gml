@@ -1,0 +1,1 @@
+if dark_alpha room_goto(o_check_big.next_room)
