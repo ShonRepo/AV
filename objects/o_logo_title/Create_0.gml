@@ -1,0 +1,1 @@
+logo_alpha = 0

@@ -72,6 +72,7 @@
     {"id":{"name":"o_wall_g","path":"objects/o_wall_g/o_wall_g.yy",},"order":4,},
     {"id":{"name":"s_AV_logo","path":"sprites/s_AV_logo/s_AV_logo.yy",},"order":33,},
     {"id":{"name":"s_wire_red_G","path":"sprites/s_wire_red_G/s_wire_red_G.yy",},"order":24,},
+    {"id":{"name":"r_01_5","path":"rooms/r_01_5/r_01_5.yy",},"order":15,},
     {"id":{"name":"o_dead_player","path":"objects/o_dead_player/o_dead_player.yy",},"order":7,},
     {"id":{"name":"s_t_coll_color","path":"sprites/s_t_coll_color/s_t_coll_color.yy",},"order":0,},
     {"id":{"name":"AV","path":"scripts/AV/AV.yy",},"order":1,},
@@ -167,6 +168,7 @@
     {"roomId":{"name":"r_0_5","path":"rooms/r_0_5/r_0_5.yy",},},
     {"roomId":{"name":"r_0_6","path":"rooms/r_0_6/r_0_6.yy",},},
     {"roomId":{"name":"r_titres","path":"rooms/r_titres/r_titres.yy",},},
+    {"roomId":{"name":"r_01_5","path":"rooms/r_01_5/r_01_5.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

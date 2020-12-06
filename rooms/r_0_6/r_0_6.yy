@@ -292,7 +292,9 @@
         {"spriteId":null,"colour":4287927444,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":1300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"b_grey","tags":[],"resourceType":"GMRBackgroundLayer",},
         {"spriteId":null,"colour":4279769112,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":1400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"b_black","tags":[],"resourceType":"GMRBackgroundLayer",},
       ],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"backgroud","tags":[],"resourceType":"GMRLayer",},
-    {"instances":[],"visible":true,"depth":1500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"dead_area","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"o_dead_area","path":"objects/o_dead_area/o_dead_area.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":11.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":320.0,"resourceVersion":"1.0","name":"inst_4E2A1C42","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":1500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"dead_area","tags":[],"resourceType":"GMRInstanceLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "${project_dir}/rooms/r_0/RoomCreationCode.gml",
@@ -356,6 +358,7 @@
     {"name":"inst_52E6C3E0","path":"rooms/r_0_6/r_0_6.yy",},
     {"name":"inst_3221E2E7","path":"rooms/r_0_6/r_0_6.yy",},
     {"name":"inst_50A83305","path":"rooms/r_0_6/r_0_6.yy",},
+    {"name":"inst_4E2A1C42","path":"rooms/r_0_6/r_0_6.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
