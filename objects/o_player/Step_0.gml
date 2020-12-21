@@ -15,7 +15,7 @@ var move = key_right - key_left;
 h_speed = (move * speed_walk) + (inertion*image_xscale);
 if move !=0
 {
-	inertion = min(inertion + 0.05,0.5) 
+	inertion = min(inertion + 0.05,0.3) 
 } else 
 
 {
@@ -25,9 +25,9 @@ if move !=0
 //graviti
 v_speed = v_speed + grv;
 
-if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && inertion>0.5
+if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && inertion>0.3
 {
-	inertion = 0.5
+	inertion = 0.3
 }
 
 if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && (key_jump)

@@ -1,11 +1,7 @@
 h_speed = 0;
 v_speed = 0;
 
-inertion = 0
-
-grey_a = 0;
-
-color_a = 1;
+inertion = 0;
 
 
 
