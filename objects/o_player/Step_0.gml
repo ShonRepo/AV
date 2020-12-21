@@ -30,10 +30,20 @@ if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visibl
 	inertion = max_inertion
 }
 
-if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && (key_jump)
+if ((coyote_time && visible()) || (coyote_time && only_grey())) && (key_jump) && one_jump
 {
 	if o_game_controller.white audio_play_sound(jump ,2 ,false)
-	v_speed =-1.7
+	one_jump = 0
+	init_jump = 1
+}
+
+if init_jump && key_jump && v_speed >=-1.25
+{
+	v_speed -= 0.25
+}
+else
+{
+	init_jump = 0;
 }
 
 //h_collision
@@ -52,7 +62,14 @@ x = x + h_speed;
 //V_collision
 if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+v_speed ) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+v_speed) && only_grey())
 {
+	if v_speed > 0
+	{
+	  coyote_time = 1
+	  one_jump = 1
+	  alarm_set(0, 0.2 * room_speed)
+	}
 	v_speed = 0
+
 }
 
 y = y + v_speed;
