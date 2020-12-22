@@ -9,6 +9,9 @@ one_jump = 1;
 
 init_jump = 1;
 
+in_air = 0;
+busted = false;
+
 
 sprite_idle = s_player_idle;
 sprite_run = s_player_run;

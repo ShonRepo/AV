@@ -15,18 +15,29 @@ var move = key_right - key_left;
 h_speed = (move * speed_walk) + (inertion*image_xscale);
 if move !=0
 {
-	inertion = min(inertion + 0.05,max_inertion) 
+	inertion = min(inertion + 0.05, busted && in_air ? max_inertion_in_air : max_inertion) 
 } else 
 
 {
-	inertion = max(inertion - 0.02,0)
+	inertion = max(inertion - 0.1,0)
+}
+
+if v_speed < 0.15 && v_speed > -0.15
+{
+	grv = 0.04;
+}
+else
+{
+    grv = 0.08;
 }
 
 //graviti
 v_speed = v_speed + grv;
 
+
 if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && inertion>max_inertion
 {
+	in_air = 1
 	inertion = max_inertion
 }
 
@@ -65,8 +76,9 @@ if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+v_speed ) && 
 	if v_speed > 0
 	{
 	  coyote_time = 1
+	  in_air = 0;
 	  one_jump = 1
-	  alarm_set(0, 0.2 * room_speed)
+	  alarm_set(0, 0.16 * room_speed)
 	}
 	v_speed = 0
 

@@ -1,1 +1,0 @@
-draw_text(20,45,coyote_time)
