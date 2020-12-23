@@ -12,23 +12,26 @@ key_jump = keyboard_check(ord("W")) || keyboard_check(vk_space);
 var move = key_right - key_left;
 
 
-h_speed = (move * speed_walk) + (inertion*image_xscale);
+h_speed = (move * speed_walk) + (inertion*image_xscale) + (boost * image_xscale);
 if move !=0
 {
-	inertion = min(inertion + 0.05, busted && in_air ? max_inertion_in_air : max_inertion) 
+	inertion = min(inertion + 0.05,  max_inertion) 
 } else 
 
 {
 	inertion = max(inertion - 0.1,0)
 }
 
+boost = max(boost - 0.01,0)
+
+
 if v_speed < 0.15 && v_speed > -0.15
 {
-	grv = 0.04;
+	grv = 0.17;
 }
 else
 {
-    grv = 0.08;
+    grv = 0.2;
 }
 
 //graviti
@@ -48,9 +51,9 @@ if ((coyote_time && visible()) || (coyote_time && only_grey())) && (key_jump) &&
 	init_jump = 1
 }
 
-if init_jump && key_jump && v_speed >=-1.25
+if init_jump && key_jump && v_speed >=-1.8
 {
-	v_speed -= 0.25
+	v_speed -= 0.5
 }
 else
 {
@@ -78,6 +81,7 @@ if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+v_speed ) && 
 	  coyote_time = 1
 	  in_air = 0;
 	  one_jump = 1
+	  boost = 0;
 	  alarm_set(0, 0.16 * room_speed)
 	}
 	v_speed = 0

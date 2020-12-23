@@ -15,7 +15,7 @@ if (o_game_controller.white)
 		{
 			o_player.v_speed = 0
 		}
-		o_player.inertion = 2
+		o_player.boost = 2
 		o_player.image_xscale = -1
 		break;
 		
@@ -24,7 +24,7 @@ if (o_game_controller.white)
 		{
 			o_player.v_speed = 0
 		}
-		o_player.inertion = 2
+		o_player.boost = 2
 		o_player.image_xscale = 1
 		break;
 		
