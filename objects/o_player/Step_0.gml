@@ -22,7 +22,7 @@ if move !=0
 	inertion = max(inertion - 0.1,0)
 }
 
-boost = max(boost - 0.01,0)
+boost = max(boost - 0.04,0)
 
 
 if v_speed < 0.15 && v_speed > -0.15
