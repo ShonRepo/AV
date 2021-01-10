@@ -94,6 +94,7 @@
     {"id":{"name":"o_j_key","path":"objects/o_j_key/o_j_key.yy",},"order":2,},
     {"id":{"name":"r_final","path":"rooms/r_final/r_final.yy",},"order":12,},
     {"id":{"name":"jump","path":"sounds/jump/jump.yy",},"order":11,},
+    {"id":{"name":"r_4_test","path":"rooms/r_4_test/r_4_test.yy",},"order":16,},
     {"id":{"name":"MegaFont","path":"fonts/MegaFont/MegaFont.yy",},"order":6,},
     {"id":{"name":"o_check_big","path":"objects/o_check_big/o_check_big.yy",},"order":1,},
     {"id":{"name":"s_bush","path":"sprites/s_bush/s_bush.yy",},"order":39,},
@@ -156,6 +157,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"r_4_test","path":"rooms/r_4_test/r_4_test.yy",},},
     {"roomId":{"name":"r_1","path":"rooms/r_1/r_1.yy",},},
     {"roomId":{"name":"r_0_4","path":"rooms/r_0_4/r_0_4.yy",},},
     {"roomId":{"name":"r_start","path":"rooms/r_start/r_start.yy",},},

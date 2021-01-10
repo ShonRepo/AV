@@ -35,7 +35,7 @@ else
 }
 
 //graviti
-v_speed = v_speed + grv;
+v_speed = min(v_speed + grv, 15)
 
 
 if ((tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+1) && visible()) || (tilemap_get_at_pixel(o_game_controller.grayCollisionMap, x, y+1) && only_grey())) && inertion>max_inertion
