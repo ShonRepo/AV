@@ -82,7 +82,7 @@ if (tilemap_get_at_pixel(o_game_controller.colorCollisionMap, x, y+v_speed ) && 
 	  in_air = 0;
 	  one_jump = 1
 	  boost = 0;
-	  alarm_set(0, 0.1 * room_speed)
+	  alarm_set(0, 0.11 * room_speed)
 	}
 	v_speed = 0
 
