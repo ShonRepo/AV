@@ -30,7 +30,7 @@ else
 
 if can_yellow draw_sprite(s_yellow,index_yellow,140,190) else draw_sprite(s_wire_yellow_G,index_yellow,140,190)
 if can_white draw_sprite(s_white,index_white,175,190) else draw_sprite(s_wire_white_G,index_white,175,190)
-if can_red draw_sprite(s_red,index_red,213,190) else draw_sprite(s_wire_red_G,index_red,59,213)
+if can_red draw_sprite(s_red,index_red,213,190) else draw_sprite(s_wire_red_G,index_red,213,190)
 
 draw_set_font(MegaFont)
 draw_set_halign(fa_center);
