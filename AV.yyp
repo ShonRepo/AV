@@ -99,6 +99,7 @@
     {"id":{"name":"o_j_key","path":"objects/o_j_key/o_j_key.yy",},"order":2,},
     {"id":{"name":"r_final","path":"rooms/r_final/r_final.yy",},"order":12,},
     {"id":{"name":"jump","path":"sounds/jump/jump.yy",},"order":11,},
+    {"id":{"name":"thank_you_for_playing","path":"sprites/thank_you_for_playing/thank_you_for_playing.yy",},"order":9,},
     {"id":{"name":"r_demo","path":"rooms/r_demo/r_demo.yy",},"order":16,},
     {"id":{"name":"MegaFont","path":"fonts/MegaFont/MegaFont.yy",},"order":6,},
     {"id":{"name":"o_check_big","path":"objects/o_check_big/o_check_big.yy",},"order":1,},
@@ -106,6 +107,7 @@
     {"id":{"name":"s_big_check_activate","path":"sprites/s_big_check_activate/s_big_check_activate.yy",},"order":30,},
     {"id":{"name":"r_0_5","path":"rooms/r_0_5/r_0_5.yy",},"order":10,},
     {"id":{"name":"s_wire_yellow_G","path":"sprites/s_wire_yellow_G/s_wire_yellow_G.yy",},"order":22,},
+    {"id":{"name":"r_thank_you_for_playing","path":"rooms/r_thank_you_for_playing/r_thank_you_for_playing.yy",},"order":18,},
     {"id":{"name":"plug_off","path":"sounds/plug_off/plug_off.yy",},"order":3,},
     {"id":{"name":"s_volume_good","path":"sprites/s_volume_good/s_volume_good.yy",},"order":9,},
     {"id":{"name":"s_frog_side","path":"sprites/s_frog_side/s_frog_side.yy",},"order":41,},
@@ -180,6 +182,7 @@
     {"roomId":{"name":"r_0_6","path":"rooms/r_0_6/r_0_6.yy",},},
     {"roomId":{"name":"r_titres","path":"rooms/r_titres/r_titres.yy",},},
     {"roomId":{"name":"r_01_5","path":"rooms/r_01_5/r_01_5.yy",},},
+    {"roomId":{"name":"r_thank_you_for_playing","path":"rooms/r_thank_you_for_playing/r_thank_you_for_playing.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -203,7 +206,9 @@
   "TextureGroups": [
     {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"CopyToMask":-1,"filePath":"datafiles","resourceVersion":"1.0","name":"thank you for playing","resourceType":"GMIncludedFile",},
+  ],
   "MetaData": {
     "IDEVersion": "2.3.1.542",
   },
